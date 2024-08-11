@@ -1,0 +1,48 @@
+/* Styling for entire page */
+html {
+  height: 100%;
+  width: 100%;
+  font-family:'Times New Roman', serif, Helvetica, sans-serif;
+}
+
+body{
+  background-color:#2f4858;
+}
+/* Styling for the header */
+img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  color: whitesmoke;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
